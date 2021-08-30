@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
  * main - Entry point
  *
@@ -11,4 +10,4 @@ int main(void)
 
 	puts(test_str);
 	return (0);
-} 
+}
