@@ -2,14 +2,23 @@ Resources
 Read or watch:
 
 [Everything you need to know to start with C.pdf](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/misc/2021/1/d801279f75de6a982a55d752dfd3632909f720f0.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOU65GPZGY3%2F20210830%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210830T084700Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=4a542b183b712351fbfe8fe155925fbc99ef0e1163070376303bde30be787477)
+
 [Dennis Ritchie](https://en.wikipedia.org/wiki/Dennis_Ritchie)
+
 [“C” Programming Language: Brian Kernighan](https://www.youtube.com/watch?v=de2Hsvxaf8M)
+
 [Why C Programming Is Awesome](https://www.youtube.com/watch?v=smGalmxPVYc)
+
 [Learning to program in C part 1](https://www.youtube.com/watch?v=rk2fK2IIiiQ)
+
 [Learning to program in C part 2](https://www.youtube.com/watch?v=FwpP_MsZWnU)
+
 [Understanding C program Compilation Process](https://www.youtube.com/watch?v=VDslRumKvRA)
+
 [Betty Coding Style](https://github.com/holbertonschool/Betty/wiki)
+
 [Hash-bang under the hood](https://twitter.com/unix_byte/status/1024147947393495040?s=21)
+
 [Linus Torvalds on C vs. C++](http://harmful.cat-v.org/software/c++/linus)
 
 man or help:
@@ -63,11 +72,11 @@ cd into the Betty directory
 Install the linter with sudo ./install.sh
 emacs or vi a new file called betty, and copy the script below:
 
-#!/bin/bash
-# Simply a wrapper script to keep you from having to use betty-style
-# and betty-doc separately on every item.
-# Originally by Tim Britton (@wintermanc3r), multiargument added by
-# Larry Madeo (@hillmonkey)
+!/bin/bash
+Simply a wrapper script to keep you from having to use betty-style
+and betty-doc separately on every item.
+Originally by Tim Britton (@wintermanc3r), multiargument added by
+Larry Madeo (@hillmonkey)
 
 BIN_PATH="/usr/local/bin"
 BETTY_STYLE="betty-style"
