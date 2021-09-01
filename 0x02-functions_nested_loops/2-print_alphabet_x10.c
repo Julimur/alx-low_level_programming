@@ -9,7 +9,7 @@
 
 void print_alphabet_x10(void)
 {
-	int alphabest_count = 0;
+	int alphabet_count = 0;
 
 	while (alphabet_count < 10)
 	{
