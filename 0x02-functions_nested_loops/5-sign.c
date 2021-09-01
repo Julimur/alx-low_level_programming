@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- *print_sign - prints the sign of a num
+ * print_sign - prints the sign of a num
  * @n: integer to be tested
  *
- *Description: checks signs of numbers
+ * Description: checks signs of numbers
  * Return: Always(0)
  */
 
@@ -22,7 +22,7 @@ int print_sign(int n)
 	}
 	else
 	{
-		_putchar ('_');
+		_putchar ('-');
 		return (-1);
 	}
 }
