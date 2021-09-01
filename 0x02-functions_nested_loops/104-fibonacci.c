@@ -1,34 +1,21 @@
 #include <stdio.h>
-
 /**
- * main - prints fibonnaci numbers
+ *main - print first 50 fibonacci
  *
- * Description: prints from 1 to 98
- * Return: Always(0) Success
+ *Return: 0 always.
  */
-
 int main(void)
 {
-	int num1, num2, i, n;
-	int next_num;
+	long int i, x = 1, y = 2, sum = 0;
 
-	n = 98;
-
-	for (i = 1; i <= n; i++)
+	for (i = 0; i < 97; i++)
 	{
-		if (i == 98)
-		{
-			printf("%d, ", num2);
-		}
-		else
-		{
-			printf("%d, ", num2);
-			next_num = num1 + num2;
-			num1 = num2;
-			num2 = next_num;
-		}
+		printf("%lu, ", x);
+		sum = x + y;
+		x = y;
+		y = sum;
+		if (i == 96)
+			printf("%lu\n", x);
 	}
-	printf("\n");
-
 	return (0);
 }
