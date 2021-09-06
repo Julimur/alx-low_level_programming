@@ -1,30 +1,22 @@
 #include "main.h"
-#include "stdio.h"
-
 /**
- * print_array - Print array upto n elements
- * @a: Array to be read from
- * @n: Number of elements to be read
- * Return: Always 0.
+ *puts2 - prints very other character in string.
+ *@str: pointer to string.
+ *
+ *Return: void.
  */
-
-void print_array(int *a, int n)
+void puts2(char *str)
 {
 	int i;
 
-	if (n > 0)
+	i = 0;
+	while (str[i] != '\0')
 	{
-		for (i = 0 ; n > i; i++)
+		if (i % 2 == 0)
 		{
-			if (i != n - 1)
-			{
-				printf("%d, ", a[i]);
-			}
-			else
-			{
-				printf("%d", a[i]);
-			}
+			_putchar(str[i]);
 		}
+		i++;
 	}
-	printf("\n");
+	_putchar('\n');
 }
