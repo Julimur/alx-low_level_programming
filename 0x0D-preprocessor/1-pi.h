@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-#ifndef
+#ifndef __PI__
 #define PI 3.14159265359
 
 #endif

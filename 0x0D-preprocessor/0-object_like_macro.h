@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-#ifndef SIZE
+#ifndef __SIZE__
 #define SIZE 1024
 
 #endif
